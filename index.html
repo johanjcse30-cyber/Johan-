@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f8f6">
+  <meta name="description" content="Alex Morgan is a product designer and front-end developer creating thoughtful digital experiences.">
+  <title>Alex Morgan — Designer &amp; Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Alex Morgan home"><span class="brand-mark">a.</span><span>alex morgan</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="availability-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+        <h1>Designing with <span>purpose.</span><br>Building with <span>care.</span></h1>
+        <p class="hero-description">I’m Alex, a product designer and front-end developer creating digital experiences that feel as good as they work.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span>BASED IN BROOKLYN, NY</span>
+          <span class="meta-divider"></span>
+          <span>WORKING WORLDWIDE</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract portrait illustration">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-sun"></div>
+        <div class="art-shape shape-back"></div>
+        <div class="art-shape shape-front"></div>
+        <div class="art-caption"><span>CREATIVE<br>BY NATURE</span><span class="caption-star">✳</span></div>
+        <div class="art-index">01 — 05</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">01 / A LITTLE INTRO</p>
+          <h2>Curiosity is<br>my <span>compass.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="large-copy">I believe the best digital work happens where thoughtful design meets purposeful technology.</p>
+          <p>For the past 6 years, I’ve partnered with founders and teams to turn complex ideas into clear, human experiences. From the first sketch to the final line of code, I care about all the details in between.</p>
+          <a class="text-link" href="#contact">More about working together <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="container stat-row">
+        <div class="stat"><strong>06<span>+</span></strong><span>YEARS OF EXPERIENCE</span></div>
+        <div class="stat"><strong>24</strong><span>PROJECTS COMPLETED</span></div>
+        <div class="stat"><strong>12</strong><span>HAPPY COLLABORATORS</span></div>
+        <div class="stat stat-note"><span>GOOD WORK IS ALWAYS</span><span class="note-accent">A TEAM SPORT <span aria-hidden="true">✳</span></span></div>
+      </div>
+    </section>
+
+    <section class="skills section container" id="skills">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 / WHAT I BRING</p>
+          <h2>A few things<br>I do <span>well.</span></h2>
+        </div>
+        <p class="heading-note">A thoughtful mix of creative thinking and practical making, from the first big idea to the tiniest detail.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-top"><span class="skill-number">01</span><span class="skill-icon" aria-hidden="true">✳</span></div>
+          <h3>Product design</h3>
+          <p>Making useful, intuitive products that put people first.</p>
+          <div class="skill-meter"><div class="meter-label"><span>PROFICIENCY</span><span>92%</span></div><div class="meter-track"><span style="--level: 92%"></span></div></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-top"><span class="skill-number">02</span><span class="skill-icon icon-lime" aria-hidden="true">↗</span></div>
+          <h3>Visual identity</h3>
+          <p>Building distinct brands with a point of view and a pulse.</p>
+          <div class="skill-meter"><div class="meter-label"><span>PROFICIENCY</span><span>85%</span></div><div class="meter-track"><span style="--level: 85%"></span></div></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-top"><span class="skill-number">03</span><span class="skill-icon icon-peach" aria-hidden="true">&lt;/&gt;</span></div>
+          <h3>Front-end development</h3>
+          <p>Bringing polished, responsive interfaces to life on the web.</p>
+          <div class="skill-meter"><div class="meter-label"><span>PROFICIENCY</span><span>88%</span></div><div class="meter-track"><span style="--level: 88%"></span></div></div>
+        </article>
+      </div>
+      <div class="toolbelt"><span>MY TOOLBELT</span><div class="tool-list"><span>Figma</span><span>HTML &amp; CSS</span><span>JavaScript</span><span>React</span><span>Webflow</span></div></div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-heading project-heading">
+          <div>
+            <p class="eyebrow">03 / A FEW FAVORITES</p>
+            <h2>Selected <span>work.</span></h2>
+          </div>
+          <p class="heading-note">A collection of ideas made real, with lovely people along the way.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="project-visual project-visual-green" href="#contact" aria-label="Discuss the Common Ground project">
+              <div class="project-window"><span class="window-dots">● ● ●</span><span class="window-label">COMMON GROUND / 2025</span><div class="project-graphic graphic-ground"><span>grow<br>together.</span><i>✳</i></div></div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info"><div><h3>Common Ground</h3><p>Brand identity · Web design</p></div><span class="project-year">2025</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-visual project-visual-orange" href="#contact" aria-label="Discuss the Goodwell project">
+              <div class="project-window"><span class="window-dots">● ● ●</span><span class="window-label">GOODWELL / 2024</span><div class="project-graphic graphic-goodwell"><i>goodwell</i><span>Better habits,<br>made simple.</span><b>↗</b></div></div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info"><div><h3>Goodwell</h3><p>Product design · Development</p></div><span class="project-year">2024</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-visual project-visual-lilac" href="#contact" aria-label="Discuss the Offscript project">
+              <div class="project-window"><span class="window-dots">● ● ●</span><span class="window-label">OFFSCRIPT / 2024</span><div class="project-graphic graphic-offscript"><span>Make room<br>for <i>maybe.</i></span><b>O.</b></div></div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info"><div><h3>Offscript</h3><p>Art direction · E-commerce</p></div><span class="project-year">2024</span></div>
+          </article>
+          <div class="project-cta"><span class="cta-star" aria-hidden="true">✳</span><p>Have a good one<br>in mind?</p><a class="text-link" href="#contact">Let’s make it real <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section container" id="contact">
+      <div class="contact-top">
+        <div>
+          <p class="eyebrow">04 / YOUR TURN</p>
+          <h2>Let’s make<br>something <span>matter.</span></h2>
+        </div>
+        <p class="contact-intro">Big idea, small question, or just want to say hi? My inbox is always open.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <span class="detail-label">EMAIL ME DIRECTLY</span>
+          <a class="email-link" href="mailto:hello@alexmorgan.design">hello@alexmorgan.design <span aria-hidden="true">↗</span></a>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="response-note"><span class="availability-dot"></span> Usually replies within 2 business days</p>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">YOUR NAME<input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Smith" required></label>
+            <label for="email">YOUR EMAIL<input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required></label>
+          </div>
+          <label for="message">WHAT’S ON YOUR MIND?<textarea id="message" name="message" rows="4" placeholder="Tell me a little about it..." required></textarea></label>
+          <div class="form-footer"><p class="form-status" id="form-status" aria-live="polite"></p><button class="button button-dark" type="submit">Send a message <span aria-hidden="true">↗</span></button></div>
+          <p class="form-disclaimer">Demo form: your details are validated in your browser and aren’t sent or stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">a.</span><span>alex morgan</span></a><span>MADE WITH INTENTION · © <span id="current-year">2025</span></span><a class="back-top" href="#home">BACK TO TOP ↑</a></div>
+  </footer>
+</body>
+</html>
